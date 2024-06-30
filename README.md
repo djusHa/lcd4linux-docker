@@ -20,7 +20,7 @@
         devices:
           - /dev/bus/usb/001/006:/dev/bus/usb/001/006
    ```
-4. Edit `lcd4linux.conf`
+4. Edit `lcd4linux.conf`, set the right permissions, if needed `chmod 0600`. 
 5. Start Container `docker-compose up -d`
 
 [LCD4Linux Wiki](https://wiki.lcd4linux.tk/doku.php)
