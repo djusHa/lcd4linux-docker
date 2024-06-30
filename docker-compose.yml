@@ -1,0 +1,10 @@
+services:
+  lcd4linux:
+    build: .
+    image: djusha/lcd4linux:latest
+    container_name: lcd4linux
+    restart: always
+    volumes:
+      - ./lcd4linux/lcd4linux.conf:/etc/lcd4linux.conf
+    devices:
+      - /dev/bus/usb/001/006:/dev/bus/usb/001/006
