@@ -1355,33 +1355,6 @@ Layout Debug {
     Row09.Col1 'Heartbeat'
 }
 
-# Layout Default {
-#     Row1 {
-# 	Col1  'OS'
-#     }
-#     Row2 {
-# 	Col1  'CPU'
-# 	Col10 'RAM'
-#     }
-#     Row3 {
-# 	Col1  'Busy'
-# 	Col10 'Rain'
-# 	Col11 'BusyBar'
-#     }
-#     Row4 {
-# 	Col1 'Load'
-# 	Col11 'LoadBar'
-#     }
-#     Row5 {
-# 	Col1  'Disk'
-# 	Col11 'DiskBar'
-#     }
-#     Row6 {
-# 	Col1  'Eth0'
-# 	Col11 'Eth0Bar'
-#     }
-# }
-
 #ANCHOR - Meins
 # width: 33
 Layout Meins {
@@ -1410,8 +1383,6 @@ Layout Meins {
     }
 
 }
-
-
 
 Display 'ACool'
 #Display 'SerDispLib'
